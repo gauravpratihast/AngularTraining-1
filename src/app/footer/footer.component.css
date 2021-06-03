@@ -1,0 +1,16 @@
+*{
+    color: white;
+    font-size: 1.2rem;
+}
+#footerSection-1{
+    font-size: 1.5rem;
+}
+h4, h5{
+    display: inline-block;
+}
+p:hover, h4:hover, h5:hover{
+    color: gray;
+}
+p:active, h4:active, h5:active{
+    transform: translateY(.2rem);
+}

@@ -1,0 +1,81 @@
+.background{
+    background: #e9eef5;
+}
+.d-flex{
+    justify-content: space-around;
+    padding: 2rem 0;
+    font-size: 1.2rem;
+}
+.d-flex .card{
+    width: 25rem;
+}
+.d-flex .card:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+img{
+    height: 20rem;
+}
+.btn:active{
+    transform: translateY(.3rem);
+}
+@media(max-width:1350px){
+    .d-flex .card{
+        width: 20rem;
+    }
+    img{
+        height: 15rem;
+    }
+    .d-flex{
+        font-size: 1rem;
+    }
+}
+@media(max-width:1150px){
+    .d-flex .card{
+        width: 18rem;
+    }
+    img{
+        height: 13rem;
+    }
+    .d-flex{
+        font-size: .8rem;
+    }
+}
+@media(max-width:950px){
+    .d-flex .card{
+        width: 15rem;
+    }
+    img{
+        height: 10rem;
+    }
+}
+@media(max-width:800px){
+    .d-flex .card{
+        width: 12rem;
+    }
+    img{
+        height: 7rem;
+    }
+}
+@media(max-width:625px){
+    .d-flex .card{
+        width: 100%;
+    }
+    img{
+        height: 100%;
+    }
+    .d-flex{
+        font-size: 1.5rem;
+        flex-direction: column;
+    }
+    .card{
+        padding: 1rem 0;
+    }
+}
+@media(max-width:550px){
+    .d-flex{
+        font-size: 1rem;
+    }
+}
+
